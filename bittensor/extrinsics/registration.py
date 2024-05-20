@@ -247,7 +247,7 @@ def burned_register_extrinsic(
         )
         return False
 
-    wallet.coldkey  # unlock coldkey
+    # wallet.coldkey  # unlock coldkey
     with bittensor.__console__.status(
         f":satellite: Checking Account on [bold]subnet:{netuid}[/bold]..."
     ):
